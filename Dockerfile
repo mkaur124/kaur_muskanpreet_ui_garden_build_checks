@@ -20,4 +20,4 @@ RUN npm run build
 EXPOSE 8018
 
 # Default command to run the app
-CMD ["npm", "start"]
+CMD ["sh", "-c", "PORT=8018 npm start"]
