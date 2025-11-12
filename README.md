@@ -27,7 +27,7 @@ The implementation ensures that:
 - Husky + Lint-Staged (Husky is a Git tool that adds hooks, like pre-commit, to automate code quality checks)
 - Jest (Javascript testing framework, used to write and run automated tests)
 - Docker
-- GitHub Actions (CI/CD) - hooks can be bypassed, husky runs locally.
+- GitHub Actions (CI/CD)
 
 ---
 
