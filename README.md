@@ -22,12 +22,12 @@ The implementation ensures that:
 
 - React (Create React App)
 - Node.js 20 (Alpine)
-- ESLint
-- Prettier
-- Husky + Lint-Staged
-- Jest
+- ESLint (A linter for js, ts code to check syntax errors)
+- Prettier (A code formatter)
+- Husky + Lint-Staged (Husky is a Git tool that adds hooks, like pre-commit, to automate code quality checks)
+- Jest (Javascript testing framework, used to write and run automated tests)
 - Docker
-- GitHub Actions (CI/CD)
+- GitHub Actions (CI/CD) - hooks can be bypassed, husky runs locally.
 
 ---
 
